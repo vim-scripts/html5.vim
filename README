@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3236
+
+HTML5 omnicomplete funtion and syntax for Vim.
+Based on the default htmlcomplete.vim.
+
+Support all new elements and attribute.
+Support microdata.
+Support RDFa.
+Support WAI-ARIA.
+
+syntax from http://www.vim.org/scripts/script.php?script_id=3232
+
+git repo: http://github.com/othree/html5.vim
