@@ -1,7 +1,7 @@
 " Vim completion for HTML5 data file
 " Language:       HTML5
 " Maintainer:     othree <othree@gmail.com>
-" Last Change:    2010 Sep 08
+" Last Change:    2010 Sep 09
 
 
 " Lang Tag: {{{
@@ -61,7 +61,7 @@ let charset = [
 " }}}
 
 " Attributes_and_Settings: {{{
-let core_attributes = {'accesskey': [], 'class': [], 'contenteditable': ['true', 'false', ''], 'contextmenu': [], 'dir': ['ltr', 'rtl'], 'draggable': ['true', 'false'], 'hidden': ['hidden', ''], 'id': [], 'lang': [], 'spellcheck': ['true', 'false', ''], 'style': [], 'tabindex': [], 'title': []}
+let core_attributes = {'accesskey': [], 'class': [], 'contenteditable': ['true', 'false', ''], 'contextmenu': [], 'dir': ['ltr', 'rtl'], 'draggable': ['true', 'false'], 'hidden': ['hidden', ''], 'id': [], 'lang': lang_tag, 'spellcheck': ['true', 'false', ''], 'style': [], 'tabindex': [], 'title': []}
 let xml_attributes = {'xml:lang': lang_tag, 'xml:space': ['preserve'], 'xml:base': [], 'xmlns': []}
 
 let body_attributes = {}
